@@ -1,0 +1,5 @@
+eel
+pyqrcode
+pyinstaller
+pypng
+autopep8
