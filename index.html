@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Application!</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+      
+
+</head>
+
+<body>
+
+    <input type="text" id="num-1" placeholder="Enter number."> <br>
+    <input type="text" id="num-2" placeholder="Enter number.">
+    <input type="button" class="submit waves-effect waves-light btn "  value="Add" onclick="operate(eel.add)">
+    <input type="button" class="submit waves-effect waves-light btn red" value="Subtract" onclick="operate(eel.subtract)">
+    <span id="output"></span>
+</body>
+
+</html>
