@@ -10,15 +10,20 @@
     <link rel="stylesheet" href="styles/style.css">
     <script type="text/javascript" src="/eel.js"></script>
     <script type="text/javascript" src="scripts/main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
 </head>
 
 <body>
 
-    <input type="text" id="num-1" placeholder="Enter number.">
-    <input type="text" id="num-2" placeholder="Enter number.">
-    <input type="button" class="submit" value="Add" onclick="operate(eel.add)">
-    <input type="button" class="submit" value="Subtract" onclick="operate(eel.subtract)">
+    Enter 1st number: <input style="width: 145px;" id = "num-1" class="container" type="number" class="form-control" placeholder="Enter here" aria-label="Enter number"><br><br>
+    Enter 2nd number: <input style="width: 145px;" id = "num-2" class="container" type="number" class="form-control" placeholder="Enter here" aria-label="Enter number"><br><br>
+
+    <!-- <input type="button" class="submit" value="Add" onclick="operate(eel.add)"> -->
+    <button type="button" class="submit btn btn-success" onclick="operate(eel.add)">Add</button>
+    <!-- <input type="button" class="submit" value="Subtract" onclick="operate(eel.subtract)"> -->
+    <button type="button" class="submit btn btn-success" onclick="operate(eel.subtract)">Subtract</button>
     <span id="output"></span>
 </body>
 
